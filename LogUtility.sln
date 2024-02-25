@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogUtility", "LogUtility\LogUtility.csproj", "{28D4CCC9-E75D-4ADC-B278-AA59824B4A08}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{413B36CE-E41F-4DE2-AE9F-8A459C68D1C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{413B36CE-E41F-4DE2-AE9F-8A459C68D1C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{28D4CCC9-E75D-4ADC-B278-AA59824B4A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{28D4CCC9-E75D-4ADC-B278-AA59824B4A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{28D4CCC9-E75D-4ADC-B278-AA59824B4A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{28D4CCC9-E75D-4ADC-B278-AA59824B4A08}.Release|Any CPU.Build.0 = Release|Any CPU
 		{413B36CE-E41F-4DE2-AE9F-8A459C68D1C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{413B36CE-E41F-4DE2-AE9F-8A459C68D1C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{413B36CE-E41F-4DE2-AE9F-8A459C68D1C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
