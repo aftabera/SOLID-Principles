@@ -3,7 +3,7 @@ using ConsoleApp1;
 
 string fileName = "logs.txt";
 
-var logger = new FileLogsManager(fileName);
+BaseLogsManager logger = new ConsoleLogsManager();
 
 logger.Log(LogEntryFactory.CreateDefault("Application is starting ..."));
 logger.Log(LogEntryFactory.CreateDefault("Application is stopping ..."));
