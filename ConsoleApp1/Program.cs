@@ -1,10 +1,11 @@
 ﻿
 using ConsoleApp1;
 
-var logger = new LogsManager();
-logger.Log("Application is starting ...");
-logger.Log("Application is stopping ...");
+string fileName = "logs.txt";
 
-logger.SaveLogs("logs.txt");
+var logger = new FileLogsManager(fileName);
+
+logger.Log(LogEntryFactory.CreateDefault("Application is starting ..."));
+logger.Log(LogEntryFactory.CreateDefault("Application is stopping ..."));
 
 Console.WriteLine("Logs saved successfully!");
